@@ -108,24 +108,6 @@ Good understanding of how various feature selection methods work.
 
 Reducing the complexity of the models.
 
-## ❓ FAQs ❔
-
-#### How Recursive Feature Elimination works ?
-Recursive Feature Elimination works in the following steps:
-  1. Rank the importance of all features using the   chosen RFE machine learning algorithm.
-  2. Eliminate the least important feature.
-  3. Build a model using the remaining features.
-  4. Repeat steps 1-3 until the desired number of features is reached.
-
-#### What is SelectKBest ?
-
-`SelectKBest` is a type of filter-based feature selection method in machine learning.
-
-The feature selection process is done independently of any specific machine learning algorithm. Instead, it relies on statistical measures to score and rank the features.
-
-SelectKBest uses statistical tests like `chi-squared` test, `ANOVA` `F-test`, or mutual information score to score and rank the features based on their relationship with the output variable. 
-
-
 ## Acknowledgements 🙌
 
 [SelectKBest](https://medium.com/@Kavya2099/optimizing-performance-selectkbest-for-efficient-feature-selection-in-machine-learning-3b635905ed48)
